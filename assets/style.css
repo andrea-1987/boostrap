@@ -1,0 +1,67 @@
+nav ion-icon {
+  padding-block: 10px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: lightgray;
+  margin-right: 10px;
+}
+.loghi img {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+.top {
+  background-color: #6f42c1;
+}
+.top button {
+  border: none;
+  border-radius: 2px;
+}
+.underBar {
+  padding-block: 20px;
+}
+.miniCard ion-icon {
+  color: rgb(170, 127, 48);
+  background-color: rgb(248, 221, 171);
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+.description {
+  padding-left: 20px;
+}
+.miniCard {
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+}
+.card {
+  width: 15%;
+}
+.main {
+
+  background-color:rgb(240, 236, 230);
+}
+#carouselExample {
+  padding-block: 50px;
+}
+
+.main h4{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.logoCorso{
+width:100%;
+ object-fit: cover;
+}
+.underCard img{
+  width: 20px;
+  border-radius: 10px;
+}
+.stars{
+  color: orange;
+}
+footer{
+  background-color:rgb(240, 236, 230);
+
+}

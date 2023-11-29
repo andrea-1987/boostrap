@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./logo.svg" alt=""></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               Browse
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Browse</a></li>
+                <li><a class="dropdown-item" href="#">Landings</a></li>
+                <li><a class="dropdown-item" href="#">Pages</a></li>
+                <li><a class="dropdown-item" href="#">Accounts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Landings
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Accounts
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="loghi d-flex">
+        <ion-icon name="notifications-outline"></ion-icon>
+        <img src="./avatar-1.jpg" alt="" />
+      </div>
+    </nav>
+    <div
+      class="top text-light d-flex justify-content-evenly align-items-center"
+    >
+      <div>
+        <h2>Welcome Web Students!</h2>
+        <p>
+          Hand-picked instructor and expertly crafter <br />
+          courses,designed for the modern students and <br />
+          entrepreneur.
+        </p>
+        <button class="bg-success text-light">Browse Courses</button>
+        <button class="bg-light">Are You Instructor?</button>
+      </div>
+      <div>
+        <img class="d-none d-md-block" src="./hero-img.png" alt="" />
+      </div>
+    </div>
+    <div class="underBar row justify-content-evenly">
+      <div class="row col-3 align-items-center">
+        <div class="miniCard col-1">
+          <ion-icon name="videocam-outline"></ion-icon>
+        </div>
+        <div class="description col-11">
+          <h5>30,000 online courses</h5>
+          <p>Enjoy a variety of fresh topics</p>
+        </div>
+      </div>
+      <div class="row col-3 align-items-center">
+        <div class="miniCard col-1">
+          <ion-icon name="people-outline"></ion-icon>
+        </div>
+        <div class="description col-11">
+          <h5>Expert instruction</h5>
+          <p>Find the right instructor for you</p>
+        </div>
+      </div>
+      <div class="row col-3 align-items-center">
+        <div class="miniCard col-1">
+          <ion-icon name="timer-outline"></ion-icon>
+        </div>
+        <div class="description col-11">
+          <h5>Lifetime access</h5>
+          <p>Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex row justify-content-evenly">
+            <h4>Recommended to you</h4>
+            <div
+              class="card d-sm-col-12 d-md-col-3 d-lg-col-3 d-xl-col-3"
+              style="width: 18rem"
+            >
+              <img class="logoCorso" src="./course-angular.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            <div
+                class="card d-none d-md-block d-md-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-css.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+                </div>
+            <div
+                class="card d-none d-lg-block d-lg-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-gatsby.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+            </div>
+            
+            <div class="card d-none d-xl-block d-xl-col-3" style="width: 18rem">
+                <img class="logoCorso" src="./course-graphql.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex row justify-content-evenly">
+            <h4>Most Popular</h4>
+            <div
+              class="card d-sm-col-12 d-md-col-3 d-lg-col-3 d-xl-col-3"
+              style="width: 18rem"
+            >
+            <img class="logoCorso" src="./course-html.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            <div
+                class="card d-none d-md-block d-md-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-javascript.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+            </div>
+            <div
+                class="card d-none d-lg-block d-lg-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-laravel.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+            </div>
+            <div class="card d-none d-xl-block d-xl-col-3" style="width: 18rem">
+                <img class="logoCorso" src="./course-node.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex row justify-content-evenly">
+            <h4>Trending</h4>
+            <div
+              class="card d-sm-col-12 d-md-col-3 d-lg-col-3 d-xl-col-3"
+              style="width: 18rem"
+            >
+              <img class="logoCorso" src="./course-python.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div
+                class="card d-none d-md-block d-md-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-react.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+            </div>
+            <div
+                class="card d-none d-lg-block d-lg-col-3 d-xl-col-3"
+                style="width: 18rem"
+              >
+                  <img class="logoCorso" src="./course-wordpress.jpg" alt="" />
+                  <h5 class="card-title">
+                    Angular:introduction to <br />grafic for beginner
+                  </h5>
+                  <p
+                    class="card-text d-flex justify-content-between align-items-center"
+                  >
+                    <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                      name="cellular-outline"
+                    ></ion-icon
+                    >Advances
+                  </p>
+                  <p class="stars">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </p>
+                  <h5>$500</h5>
+                  <div
+                    class="underCard d-flex justify-content-between align-items-center"
+                  >
+                    <img src="./avatar-1.jpg" alt="" />
+                    Brock Qualcosa
+                    <ion-icon name="bookmark-outline"></ion-icon>
+                  </div>
+            </div>
+            <div class="card d-none d-xl-block d-xl-col-3" style="width: 18rem">
+                <img class="logoCorso" src="./course-javascript.jpg" alt="" />
+                <h5 class="card-title">
+                  Angular:introduction to <br />grafic for beginner
+                </h5>
+                <p
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <ion-icon name="time-outline"></ion-icon>2h 40min<ion-icon
+                    name="cellular-outline"
+                  ></ion-icon
+                  >Advances
+                </p>
+                <p class="stars">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                </p>
+                <h5>$500</h5>
+                <div
+                  class="underCard d-flex justify-content-between align-items-center"
+                >
+                  <img src="./avatar-1.jpg" alt="" />
+                  Brock Qualcosa
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+       
+        <button
+          class="carousel-control-prev "
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <footer class="d-flex justify-content-between ">
+      <p class="text-color-light-emphasis ms-5"><ion-icon name="at-circle-outline"></ion-icon>2002 Geeks,All Rights Reserved</p>
+      <p class="text-color-light-emphasis d-flex ">
+       <span class="mx-5">Privacy</span><span class="mx-5">Term</span><span class="mx-5">Support</span>
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
