@@ -37,6 +37,14 @@ nav ion-icon {
 }
 .card {
   width: 15%;
+  margin-block: 10px;
+}
+.card:hover{
+  transform: scale(1.1,1.1);
+  transition-delay: 0.7s;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .main {
 
@@ -51,13 +59,21 @@ nav ion-icon {
   margin-bottom: 20px;
 }
 .logoCorso{
-width:100%;
+  width:100%;
  object-fit: cover;
+}
+.underCard{
+  margin-bottom: 5px;
 }
 .underCard img{
   width: 20px;
   border-radius: 10px;
 }
+.underCard button{
+  border: none;
+  background-color: transparent;
+}
+
 .stars{
   color: orange;
 }
