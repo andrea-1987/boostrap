@@ -7,9 +7,4 @@ let save=function(){
     buttons.innerHTML=`<ion-icon name="bookmark"></ion-icon>`
 }
 buttons.addEventListener("click",save)
-let unSave=function(){
-    if(buttons.target.value=`<ion-icon name="bookmark"></ion-icon>`){
-    buttons.innerHTML=`<ion-icon name="bookmark"></ion-icon>`}
-buttons.addEventListener("click",unSave)   
-}
 }
